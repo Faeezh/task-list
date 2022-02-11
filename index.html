@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task List</title>
+</head>
+<body>
+  <div class="container">
+        <h1>To-Do App</h1>
+
+        <form id="ourForm">
+            <input id="ourField" type="text"  autocomplete="off">
+            <button>Create item</button>
+        </form>
+
+        <h3>Need To Do</h3>
+        <ul id="ourList">   
+            <li>Test Link 1 <button onClick="deleteItem(this)">Delete</button></li>
+            <li>Test Link 2 <button onClick="deleteItem(this)">Delete</button></li>
+            <!-- <li> CREATED ITEM OUTPUT GOES HERE </li>  -->
+        </ul>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
